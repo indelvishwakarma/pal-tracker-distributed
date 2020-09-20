@@ -18,7 +18,7 @@ public class App {
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
         SpringApplication.run(App.class, args);
     }
-
+//update from prodil
     @Bean
     ProjectClient projectClient(
         RestOperations restOperations,
